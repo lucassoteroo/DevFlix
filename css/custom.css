@@ -82,3 +82,7 @@ header nav .item:hover {
     font-size: 1.295rem;
     font-weight: 900;
 }
+
+.filme-capa .container {
+    margin-left: 15px;
+}
