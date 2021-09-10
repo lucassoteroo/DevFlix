@@ -40,7 +40,7 @@ header nav .item:hover {
     background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../img/capa-interestelar.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,4 +85,13 @@ header nav .item:hover {
 
 .filme-capa .container {
     margin-left: 15px;
+}
+
+
+/*Carousel*/
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
