@@ -66,6 +66,15 @@ header nav .item:hover {
     margin-right: 30px;
 }
 
+.filme-capa .botao a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.filme-capa .botao a:hover {
+    color: var(--preto);
+}
+
 .filme-capa .botao i {
     margin-right: 20px;
 }
