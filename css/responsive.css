@@ -24,6 +24,11 @@
     .owl-carousel .owl-item img {
         width: 80%;
     }
+    .box-podcast {
+        width: 80%;
+        height: 25vh;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -33,5 +38,10 @@
     .filme-capa .descricao {
         width: 65%;
         font-size: 1rem;
+    }
+    .box-podcast {
+        width: 100%;
+        height: 17vh;
+        margin: 0 auto;
     }
 }
