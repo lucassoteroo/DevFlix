@@ -106,16 +106,14 @@ header nav .item:hover {
     display: block;
 }
 
-.box-podcast {
-    height: 30vh;
-    width: 100%;
-    display: block;
-}
-
 .carrosel-titulo {
     font-family: 'Poppins', sans-serif;
     font-size: 1.125rem;
     font-weight: 600;
     margin: 20px;
     text-align: center;
+}
+
+.owl-dots {
+    margin-bottom: 15px;
 }
