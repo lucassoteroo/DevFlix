@@ -39,6 +39,7 @@
 <h2>Funcionalidades</h2>
 
 <ul>
+    <li>Na página de login, você só poderá entrar usando o email e senha válidos, por conta do sistema de validação</li>
     <li>Passando o mouse sobre os itens do menu de navegação, os mesmos mudam de cor.</li>
     <li>Clicando em "Assistir Agora" você é direcionado para o trailer de Interestelar.</li>
     <li>Para navegar pelo carrossel de filmes, você pode utilizar o a rolagem lateral com o mouse ou clicando nas bolinhas abaixo do carrossel.</li>
