@@ -1,0 +1,85 @@
+@import url('root.css');
+
+/*Base e Cabeçalho**/
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../img/capa-login.jpg);
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-size: 3.35rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    margin: 15px 0px 0px 30px;
+}
+
+
+/*Formulário*/
+
+main .container {
+    width: 480px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)100%);
+    border-radius: 4px;
+    padding: 50px 75px;
+}
+
+form h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--branco);
+    padding-bottom: 40px;
+}
+
+form input {
+    outline: none;
+    border: 0;
+    border-radius: 4px;
+    background-color: var(--background-botao);
+    box-shadow: none;
+    padding: 15px 15px;
+    margin: 10px 0;
+    font-size: 1rem;
+    color: var(--branco);
+}
+
+form button {
+    font-weight: 600;
+    font-size: .985rem;
+    border: none;
+    background-color: var(--vermelho);
+    border-radius: 4px;
+    margin-top: 40px;
+    padding: 10px 10px;
+    color: var(--branco);
+}
+
+form .caixa {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form label {
+    font-size: .875rem;
+    font-weight: 100;
+    color: var(--branco);
+    padding-left: 5px;
+}
+
+form span {
+    font-size: .795rem;
+    margin-top: 10px;
+    color: var(--texto-login);
+    text-align: justify;
+    line-height: 1.5;
+}
