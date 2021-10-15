@@ -18,13 +18,24 @@
         </div>
     </header>
     <main class="main-login">
-        <div class="container">
+        <div class="container-cadastro">
+            <div class="form">
+                <form action="get">
+                    <h3>Cadastro</h3>
+                    <input type="email" name="email" id="cadastroEmail" placeholder="Email">
+                    <input type="password" name="senha" id="cadastroSenha" placeholder="Senha">
+                    <a id="enviar">Enviar</a>
+                    <span>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô.</span>
+                </form>
+            </div>
+        </div>
+        <div class="container-login visually-hidden">
             <div class="form">
                 <form action="get">
                     <h3>Entrar</h3>
                     <input type="email" name="email" id="email" placeholder="Email">
                     <input type="password" name="senha" id="senha" placeholder="Senha">
-                    <button type="submit" id="entrar">Entrar</button>
+                    <a type="submit" id="entrar">Entrar</a>
                     <div class="caixa">
                         <input type="checkbox" name="lembrar" id="lembrar">
                         <label for="lembrar">Lembre-se de mim</label>
