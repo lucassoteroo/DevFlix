@@ -100,3 +100,12 @@ form span {
     white-space: nowrap !important;
     border: 0 !important;
 }
+
+.invalido {
+    border: 1px solid #F00 !important;
+}
+
+.textoPequeno {
+    font-size: 8px;
+    color: var(--cinza-claro);
+}

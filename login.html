@@ -22,8 +22,12 @@
             <div class="form">
                 <form action="get">
                     <h3>Cadastro</h3>
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                    <span></span>
                     <input type="email" name="email" id="cadastroEmail" placeholder="Email">
+                    <small class="textoPequeno">* Campo Obrigatório</small>
                     <input type="password" name="senha" id="cadastroSenha" placeholder="Senha">
+                    <small class="textoPequeno">* Campo Obrigatório</small>
                     <a id="enviar">Enviar</a>
                     <span>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô.</span>
                 </form>
@@ -32,7 +36,6 @@
         <div class="container-login visually-hidden">
             <div class="form">
                 <form action="get">
-                    <h3>Entrar</h3>
                     <input type="email" name="email" id="email" placeholder="Email">
                     <input type="password" name="senha" id="senha" placeholder="Senha">
                     <a type="submit" id="entrar">Entrar</a>
