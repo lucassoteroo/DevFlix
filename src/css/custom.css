@@ -1,11 +1,9 @@
-@import url('root.css');
-
 /*Base e Cabeçalho*/
 
 body {
-    background: var(--preto);
+    background: #141414;
     font-family: 'Noto Sans JP', sans-serif;
-    color: var(--branco);
+    color: #ffffff;
 }
 
 header .container {
@@ -17,7 +15,7 @@ header .container {
 }
 
 header .logo {
-    color: var(--vermelho);
+    color: #E50914;
     font-size: 2.75rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
@@ -26,12 +24,12 @@ header .logo {
 
 header nav .item {
     text-decoration: none;
-    color: var(--cinza-claro);
+    color: #AAA;
     padding-left: 5px;
 }
 
 header nav .item:hover {
-    color: var(--branco);
+    color: #ffffff;
 }
 
 
@@ -39,7 +37,7 @@ header nav .item:hover {
 
 .filme-capa {
     font-size: 1.025rem;
-    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../img/capa-interestelar.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../images/capa-interestelar.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 450px;
@@ -61,19 +59,19 @@ header nav .item:hover {
     font-weight: 600;
     border: none;
     border-radius: 5%;
-    background-color: var(--botao);
-    color: var(--branco);
+    background-color: rgba(0, 0, 0, .50);
+    color: #ffffff;
     padding: 10px 15px;
     margin-right: 30px;
 }
 
 .filme-capa .botao a {
     text-decoration: none;
-    color: var(--branco);
+    color: #ffffff;
 }
 
 .filme-capa .botao a:hover {
-    color: var(--preto);
+    color: #141414;
 }
 
 .filme-capa .botao i {
@@ -82,8 +80,8 @@ header nav .item:hover {
 
 .filme-capa .botao:hover {
     cursor: pointer;
-    background-color: var(--branco);
-    color: var(--preto);
+    background-color: #ffffff;
+    color: #141414;
     font-weight: 600;
     transition: .5s ease all;
 }

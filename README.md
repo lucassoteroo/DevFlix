@@ -57,3 +57,9 @@
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
 ![JAVASCRIPT](https://img.shields.io/badge/-JAVASCRIPT-F7DF1E?style=flat-square&logo=javascript&logoColor=ffffff)
 ![JQUERY](https://img.shields.io/badge/-JQUERY-0769AD?style=flat-square&logo=jquery&logoColor=ffffff)
+
+<h2>Rodar Projeto</h2>
+- Executar o comando:
+```
+npm install
+```
