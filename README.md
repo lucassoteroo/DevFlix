@@ -60,6 +60,5 @@
 
 <h2>Rodar Projeto</h2>
 - Executar o comando:
-```
-npm install
-```
+  
+````npm install````
