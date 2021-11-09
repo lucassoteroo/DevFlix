@@ -8,8 +8,8 @@ const image = require('gulp-image')
 function tarefasCSSindex() {
     return gulp.src([
             './node_modules/@fortawesome/fontawesome-free/css/all.css',
-            './libs/Owl/css/owl.carousel.min.css',
-            './libs/Owl/css/owl.theme.default.min.css',
+            './src/Owl/css/owl.carousel.min.css',
+            './src/Owl/css/owl.theme.default.min.css',
             './src/css/reset.css',
             './src/css/custom.css',
             './src/css/responsive.css'
@@ -22,6 +22,7 @@ function tarefasCSSindex() {
 
 function tarefasCSSlogin() {
     return gulp.src([
+            './node_modules/@fortawesome/fontawesome-free/css/all.css',
             './src/css/reset.css',
             './src/css/custom-login.css',
             './src/css/responsive.css'
@@ -36,7 +37,7 @@ function tarefasJSindex() {
     return gulp.src([
             './node_modules/@fortawesome/fontawesome-free/js/all.js',
             './node_modules/jquery/dist/jquery.js',
-            './libs/Owl/js/owl.carousel.min.js',
+            './src/Owl/js/owl.carousel.min.js',
             './src/js/custom-carrosel.js'
         ])
         .pipe(concat('script.js'))
