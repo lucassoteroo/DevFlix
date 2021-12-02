@@ -59,6 +59,6 @@
 ![JQUERY](https://img.shields.io/badge/-JQUERY-0769AD?style=flat-square&logo=jquery&logoColor=ffffff)
 
 <h2>Rodar Projeto</h2>
-- Executar o comando:
+- Executar primeiro o comando:
   
 ````npm install````

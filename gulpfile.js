@@ -5,29 +5,14 @@ const uglify = require('gulp-uglify')
 const rename = require('gulp-rename')
 const image = require('gulp-image')
 
-function tarefasCSSindex() {
+function tarefasCSS() {
     return gulp.src([
             './node_modules/@fortawesome/fontawesome-free/css/all.css',
             './src/Owl/css/owl.carousel.min.css',
             './src/Owl/css/owl.theme.default.min.css',
-            './src/css/reset.css',
-            './src/css/custom.css',
-            './src/css/responsive.css'
+            './src/css/style.css'
         ])
         .pipe(concat('style.css'))
-        .pipe(cssmin())
-        .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest('./dist/css'))
-}
-
-function tarefasCSSlogin() {
-    return gulp.src([
-            './node_modules/@fortawesome/fontawesome-free/css/all.css',
-            './src/css/reset.css',
-            './src/css/custom-login.css',
-            './src/css/responsive.css'
-        ])
-        .pipe(concat('style-login.css'))
         .pipe(cssmin())
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('./dist/css'))
@@ -73,8 +58,7 @@ function tarefasImagens() {
         .pipe(gulp.dest('./dist/images'))
 }
 
-exports.styleIndex = tarefasCSSindex
+exports.style = tarefasCSS
 exports.scriptIndex = tarefasJSindex
-exports.styleLogin = tarefasCSSlogin
 exports.scriptLogin = tarefasJSlogin
 exports.image = tarefasImagens

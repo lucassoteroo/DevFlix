@@ -1,0 +1,99 @@
+.login {
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../images/capa-login.jpg);
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+    header {
+        .logo {
+            color: #E50914;
+            font-size: 3.35rem;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 900;
+            margin: 15px 0px 0px 30px;
+        }
+    }
+    main {
+        .container-login {
+            width: 480px;
+            margin: 0 auto;
+        }
+        .container-cadastro {
+            width: 480px;
+            margin: 0 auto;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)100%);
+            border-radius: 4px;
+            padding: 50px 75px;
+            margin-top: 20px;
+            h3 {
+                font-size: 2rem;
+                font-weight: 600;
+                color: #ffffff;
+                padding-bottom: 40px;
+            }
+            input {
+                outline: none;
+                border: 0;
+                border-radius: 4px;
+                background-color: #333;
+                box-shadow: none;
+                padding: 15px 15px;
+                margin: 10px 0;
+                font-size: 1rem;
+                color: #ffffff;
+            }
+            a {
+                text-align: center;
+                font-weight: 600;
+                font-size: .985rem;
+                border: none;
+                background-color: #E50914;
+                border-radius: 4px;
+                margin-top: 40px;
+                padding: 10px 10px;
+                color: #ffffff;
+                cursor: pointer;
+            }
+            .caixa {
+                margin-top: 10px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            label {
+                font-size: .875rem;
+                font-weight: 100;
+                color: #ffffff;
+                padding-left: 5px;
+            }
+            span {
+                font-size: .795rem;
+                margin-top: 10px;
+                color: #8c8c8c;
+                text-align: justify;
+                line-height: 1.5;
+            }
+        }
+    }
+    .visually-hidden,
+    .visually-hidden-focusable:not(:focus):not(:focus-within) {
+        position: absolute !important;
+        width: 1px !important;
+        height: 1px !important;
+        padding: 0 !important;
+        margin: -1px !important;
+        overflow: hidden !important;
+        clip: rect(0, 0, 0, 0) !important;
+        white-space: nowrap !important;
+        border: 0 !important;
+    }
+    .invalido {
+        border: 1px solid #F00 !important;
+    }
+    .textoPequeno {
+        font-size: 8px;
+        color: #AAA;
+    }
+}
